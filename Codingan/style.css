@@ -1,0 +1,313 @@
+body {
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    margin: 0;
+    padding: 30px;
+    background-color: #f7f7f7;
+    color: #000000;
+    animation: fadeIn 2s ease;
+  }
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    background-image: linear-gradient(rgba(45, 131, 131, 0.404), rgba(185, 114, 126, 0.5));
+  }
+  @keyframes fadeIn {
+    from { opacity: 0;}
+    to { opacity: 1;}
+}
+  h1, h4 {
+    text-align: center;
+    color: #9d6c46;
+    animation: fadeIn 2s ease;
+  }
+
+  h2 {
+    text-align: center;
+    color: #000000;
+    animation: fadeIn 2s ease;
+  }
+  h3 {
+    text-align: center;
+    color: white;
+    animation: fadeIn 2s ease;
+  }
+  .cover {
+    text-align: center;
+    padding: 50px 20px;
+    
+    animation: fadeIn 2s ease;
+  }
+  .cover img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    animation: fadeIn 2s ease;
+  }
+  .ayat-box {
+    margin-top: 30px;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #9d6c46;
+    color: white;
+    animation: fadeIn 2s ease;
+  }
+
+  .gallery {
+    margin-top: 30px;
+    animation: fadeIn 2s ease;
+  }
+  .gallery h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    animation: fadeIn 2s ease;
+  }
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
+    gap: 10px;
+    animation: fadeIn 2s ease;
+  }
+  .gallery-grid img {
+    width: 100%;
+    border-radius: 10px;
+    height: auto;
+    transition: transform 0.3s;
+    animation: fadeIn 2s ease;
+  }
+  .gallery-grid img:hover {
+    transform: scale(1.05);
+    animation: fadeIn 2s ease;
+  }
+  iframe {
+    width: 90%;
+    padding: 30px;
+    animation: fadeIn 2s ease;
+  }
+  .countdown-container {
+    text-align: center;
+    background-image: linear-gradient(rgba(45, 131, 131, 0.404), rgba(185, 114, 126, 0.5));
+    color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 2s ease;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 32px;
+    animation: fadeIn 2s ease;
+}
+
+#countdown {
+    display: flex;
+    justify-content: center;
+    max-width: 400px;
+    margin: 0 auto;
+    animation: fadeIn 2s ease;
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+    animation: fadeIn 2s ease;
+}
+
+.time span {
+    font-size: 48px;
+    font-weight: bold;
+    animation: fadeIn 2s ease;
+}
+
+.time p {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: normal;
+    animation: fadeIn 2s ease;
+}
+  .event, .hadiah {
+    margin-top: 30px;
+    justify-content: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 20px auto;
+    background-image: linear-gradient(rgba(45, 131, 131, 0.404), rgba(185, 114, 126, 0.5));
+    color: white;
+    animation: fadeIn 2s ease;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    animation: fadeIn 2s ease;
+}
+
+label {
+    margin-bottom: 5px;
+    text-align: left;
+    animation: fadeIn 2s ease;
+}
+
+input, select {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    animation: fadeIn 2s ease;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(rgba(45, 131, 131, 0.404), rgba(185, 114, 126, 0.5));
+    color: white;
+    cursor: pointer;
+    animation: fadeIn 2s ease;
+}
+
+button:hover {
+  background-image: linear-gradient(rgba(37, 71, 71, 0.404), rgba(184, 68, 87, 0.5));
+    animation: fadeIn 2s ease;
+}
+
+#responseMessage {
+    margin-top: 20px;
+    color: #28a745;
+    font-weight: bold;
+    animation: fadeIn 2s ease;
+}
+  .amplop-transfer {
+    margin-top: 30px;
+    animation: fadeIn 2s ease;
+  }
+  .rekening-info {
+    background-image: linear-gradient(rgba(45, 131, 131, 0.404), rgba(185, 114, 126, 0.5));
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+    animation: fadeIn 2s ease;
+  }
+  .rekening-info p {
+    margin: 5px 0;
+    animation: fadeIn 2s ease;
+  }
+  .form-transfer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+    animation: fadeIn 2s ease;
+  }
+  .form-transfer label {
+    font-size: 16px;
+    animation: fadeIn 2s ease;
+  }
+  .form-transfer input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    animation: fadeIn 2s ease;
+  }
+  .form-transfer button {
+    background-image: linear-gradient(rgba(45, 131, 131, 0.404), rgba(185, 114, 126, 0.5));
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    animation: fadeIn 2s ease;
+  }
+  .form-transfer button:hover {
+    background-image: linear-gradient(rgba(37, 71, 71, 0.404), rgba(184, 68, 87, 0.5));
+    animation: fadeIn 2s ease;
+  }
+  .result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: green;
+    text-align: center;
+    animation: fadeIn 2s ease;
+  }
+
+  footer {
+    background-image: linear-gradient(rgba(45, 131, 131, 0.404), rgba(185, 114, 126, 0.5));
+    color: #000000;
+    padding: 20px 10px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-info, .footer-social {
+    flex: 1;
+  }
+  
+  .footer-info h4, .footer-social h4 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+  }
+  
+  .footer-info p, .footer-social a {
+    margin: 5px 0;
+    font-size: 1em;
+  }
+  
+  .footer-social a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  .footer-social a:hover {
+    text-decoration: underline;
+  }
+
+  @keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@media only screen and (min-width: 1000px) {
+  .content {
+      height: 170vh;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .content {
+      gap: 70px;
+  }
+}
